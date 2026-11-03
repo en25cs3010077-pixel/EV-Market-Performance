@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EV Market Performance | Analytics</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">⚡</span>
+            EV<span>INSIGHTS</span>
+        </div>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#dashboard">Dashboard</a>
+            <a href="#story">Data Story</a>
+            <a href="#about">About</a>
+        </div>
+
+        <a href="#dashboard" class="nav-button">
+            Explore Dashboard
+        </a>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="tag">
+                ELECTRIC VEHICLE ANALYTICS
+            </div>
+
+            <h1>
+                Exploring the Future of
+                <span>Electric Mobility</span>
+            </h1>
+
+            <p>
+                Discover global electric vehicle market trends,
+                manufacturer performance, battery technologies,
+                customer satisfaction and sustainable mobility
+                through interactive data visualization.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#dashboard" class="primary-btn">
+                    Explore Dashboard ↗
+                </a>
+
+                <a href="#story" class="secondary-btn">
+                    View Data Story
+                </a>
+            </div>
+
+            <div class="hero-info">
+                <div>
+                    <h3>200,000</h3>
+                    <p>Dataset Records*</p>
+                </div>
+
+                <div>
+                    <h3>39</h3>
+                    <p>Data Attributes*</p>
+                </div>
+
+                <div>
+                    <h3>Tableau</h3>
+                    <p>Analytics Platform</p>
+                </div>
+            </div>
+
+            <p class="small-note">
+                *Dataset dimensions as specified in the project dataset.
+            </p>
+
+        </div>
+
+        <div class="hero-visual">
+            <div class="circle circle-one"></div>
+            <div class="circle circle-two"></div>
+
+            <div class="car-card">
+                <div class="car-icon">🚘</div>
+                <h2>Electric Mobility</h2>
+                <p>Driving a sustainable future</p>
+                <div class="car-line"></div>
+                <div class="car-stats">
+                    <span>⚡ Clean Energy</span>
+                    <span>🌱 Sustainability</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- About Project -->
+    <section class="about section" id="about">
+
+        <div class="section-heading">
+            <span class="tag">ABOUT THE PROJECT</span>
+            <h2>Understanding the EV Market</h2>
+
+            <p>
+                This project analyzes the global electric vehicle
+                industry using Tableau. It explores market competition,
+                vehicle categories, battery technologies, sales trends
+                and manufacturing distribution.
+            </p>
+        </div>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+                <h3>Market Analysis</h3>
+                <p>
+                    Explore manufacturer performance and EV
+                    category distribution.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🔋</div>
+                <h3>Battery Technology</h3>
+                <p>
+                    Understand battery types, capacity and
+                    driving range.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌍</div>
+                <h3>Global Distribution</h3>
+                <p>
+                    Analyze manufacturing locations and
+                    geographical market distribution.
+                </p>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">🌱</div>
+                <h3>Sustainability</h3>
+                <p>
+                    Explore environmental performance and
+                    sustainability indicators.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- Dashboard Section -->
+    <section class="dashboard-section section" id="dashboard">
+
+        <div class="section-heading">
+            <span class="tag">INTERACTIVE ANALYTICS</span>
+
+            <h2>EV Market Performance Dashboard</h2>
+
+            <p>
+                Explore the interactive Tableau dashboard.
+                Apply filters and investigate different aspects
+                of the electric vehicle market.
+            </p>
+        </div>
+
+        <div class="tableau-container">
+
+            <iframe
+                title="EV Market Performance Dashboard"
+                src="https://public.tableau.com/views/Dashboard1_17934688053880/Dashboard1?:showVizHome=no&:embed=true&:display_count=n&:language=en-US"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <div class="tableau-footer">
+            <span>Powered by Tableau Public</span>
+
+            <a
+                href="https://public.tableau.com/views/Dashboard1_17934688053880/Dashboard1"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open Full Dashboard ↗
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Story Section -->
+    <section class="story-section section" id="story">
+
+        <div class="section-heading">
+            <span class="tag">DATA STORYTELLING</span>
+
+            <h2>Global EV Market Story</h2>
+
+            <p>
+                Discover the story behind global electric vehicle
+                manufacturing, market development and geographical
+                distribution through interactive visualizations.
+            </p>
+        </div>
+
+        <div class="tableau-container story-container">
+
+            <iframe
+                title="EV Market Performance Story"
+                src="https://public.tableau.com/views/EVMARKET-STORY_17934681361330/Story1?:showVizHome=no&:embed=true&:display_count=n&:language=en-US"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+
+        </div>
+
+        <div class="tableau-footer">
+            <span>Interactive Tableau Story</span>
+
+            <a
+                href="https://public.tableau.com/views/EVMARKET-STORY_17934681361330/Story1"
+                target="_blank"
+                rel="noopener noreferrer">
+                Open Full Story ↗
+            </a>
+        </div>
+
+    </section>
+
+
+    <!-- Conclusion -->
+    <section class="conclusion section">
+
+        <div class="conclusion-content">
+
+            <span class="tag">PROJECT OUTCOME</span>
+
+            <h2>Driving Insights Through Data</h2>
+
+            <p>
+                The project demonstrates how data visualization
+                can transform complex electric vehicle market
+                information into meaningful insights. Interactive
+                dashboards and data storytelling help users
+                understand market trends and industry developments.
+            </p>
+
+            <a href="#dashboard" class="primary-btn">
+                Explore the Analysis ↗
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div>
+                <h3>⚡ EV INSIGHTS</h3>
+
+                <p>
+                    Electric Vehicle Market Performance
+                    Analytics Project
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#dashboard">Dashboard</a>
+                <a href="#story">Story</a>
+                <a href="#about">About</a>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            © 2026 EV Market Performance Project.
+            Developed by Dheeraj Anjana.
+        </div>
+
+    </footer>
+
+</body>
+</html>
